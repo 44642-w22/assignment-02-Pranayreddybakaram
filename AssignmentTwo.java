@@ -305,6 +305,7 @@ public static Map<String, Boolean> setBooleanMap(ArrayList<String> input) {
 	Map<String, Boolean> map = new HashMap<>();
 	for (int i = 0; i < input.size(); i++) {
 		if (map.containsKey(input.get(i))) {
+			
 			map.put(input.get(i), true);
 		} else {
 			map.put(input.get(i), false);
